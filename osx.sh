@@ -347,6 +347,12 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
     Privileges -bool true
 
 ###############################################################################
+# Launchpad                                                                   #
+###############################################################################
+# Rest Launchpad content and layout
+defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
+
+###############################################################################
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 
